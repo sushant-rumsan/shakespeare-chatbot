@@ -1,0 +1,53 @@
+{
+  "questions": [
+    {
+      "id": "G1",
+      "play": "Hamlet",
+      "question": "Who is Hamlet?",
+      "expected_focus": "Prince of Denmark, son of the late King Hamlet, nephew of Claudius; central figure seeking revenge.",
+      "interaction": "explain"
+    },
+    {
+      "id": "G2",
+      "play": "Macbeth",
+      "question": "Who is Lady Macbeth and what does she want?",
+      "expected_focus": "Macbeth's wife; ambitious; urges Macbeth to seize the crown after Duncan's murder.",
+      "interaction": "explain"
+    },
+    {
+      "id": "G3",
+      "play": "Romeo and Juliet",
+      "question": "What is the conflict between the Montagues and the Capulets?",
+      "expected_focus": "Long-standing family feud in Verona causing street violence and pressure on the lovers.",
+      "interaction": "explain"
+    },
+    {
+      "id": "G4",
+      "play": "Hamlet",
+      "question": "What is the ghost and why does it matter?",
+      "expected_focus": "Ghost claims to be Hamlet's father, accuses Claudius of murder, sets revenge plot in motion.",
+      "interaction": "explain"
+    },
+    {
+      "id": "G5",
+      "play": "Macbeth",
+      "question": "What do the witches tell Macbeth?",
+      "expected_focus": "Prophecies including Thane of Cawdor and future kingship; help spark his ambition.",
+      "interaction": "explain"
+    },
+    {
+      "id": "G6",
+      "play": "Hamlet",
+      "question": "Speak briefly as Hamlet reflecting on revenge.",
+      "expected_focus": "Stylised creative response; not factual evidence. Should sound Shakespearean but stay clear.",
+      "interaction": "stylised"
+    },
+    {
+      "id": "G7",
+      "play": "Romeo and Juliet",
+      "question": "Speak briefly as Juliet about love and family duty.",
+      "expected_focus": "Stylised creative response; tension between love for Romeo and loyalty to family.",
+      "interaction": "stylised"
+    }
+  ]
+}

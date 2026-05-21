@@ -1,9 +1,6 @@
 import json
 import os
 
-# -----------------------------------
-# Load play JSON files (skip question files)
-# -----------------------------------
 
 def load_play_files(folder_path):
     plays = []
@@ -22,10 +19,6 @@ def load_play_files(folder_path):
 
     return plays
 
-
-# -----------------------------------
-# Format utterances for embedding
-# -----------------------------------
 
 def format_utterance(utterance):
     speaker = utterance.get("speaker", "UNKNOWN")
@@ -76,10 +69,6 @@ def build_chunk_metadata(scene, play_title, utterances, start_idx, end_idx):
         "keywords": keywords_str,
     }
 
-
-# -----------------------------------
-# Scene-aware chunking
-# -----------------------------------
 
 def chunk_scene(scene, play_title, max_tokens=450, overlap_utterances=3):
     utterances = scene.get("utterances", [])
