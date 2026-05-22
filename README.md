@@ -12,11 +12,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-- Start ollama model
+- Download ollama in mac:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+- Run llama3 model in background
 
 ```bash
 ollama pull llama3
 ```
+
+(By default, ollama runs in port: 11434, if this port is not available in your device, use different port.)
 
 ## Usage
 
