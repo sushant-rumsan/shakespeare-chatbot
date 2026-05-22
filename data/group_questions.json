@@ -48,6 +48,13 @@
       "question": "Speak briefly as Juliet about love and family duty.",
       "expected_focus": "Stylised creative response; tension between love for Romeo and loyalty to family.",
       "interaction": "stylised"
+    },
+    {
+      "id": "G8",
+      "play": "Romeo and Juliet",
+      "question": "How does the family feud shape the tragedy?",
+      "expected_focus": "The feud creates violence, secrecy, pressure, miscommunication, and ultimately the conditions for the lovers' deaths.",
+      "interaction": "explain"
     }
   ]
 }

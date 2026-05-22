@@ -1,6 +1,6 @@
 """
 Structured evaluation: baseline vs RAG on instructor + group questions.
-Output: evaluate_results.csv
+Outputs: evaluate_results.csv and evaluate_results.json
 """
 
 import csv
@@ -11,6 +11,7 @@ from pathlib import Path
 from utils import RAGSystem
 
 OUTPUT_CSV = "evaluate_results.csv"
+OUTPUT_JSON = "evaluate_results.json"
 DATA_DIR = Path("./data")
 
 FIELDNAMES = [
@@ -122,6 +123,44 @@ def evaluate_question(q, rag):
     return rows
 
 
+def group_results_by_question(rows):
+    """Group flat rows by question_id for easier JSON reading."""
+    questions = []
+    index = {}
+
+    for row in rows:
+        qid = row["question_id"]
+        if qid not in index:
+            entry = {
+                "question_id": qid,
+                "source": row["source"],
+                "play": row["play"],
+                "question": row["question"],
+                "expected_focus": row["expected_focus"],
+                "runs": [],
+            }
+            index[qid] = entry
+            questions.append(entry)
+
+        index[qid]["runs"].append(
+            {
+                "interaction": row["interaction"],
+                "system": row["system"],
+                "retrieved_passage": row["retrieved_passage"],
+                "retrieved_metadata": row["retrieved_metadata"],
+                "response": row["response"],
+                "correctness": row["correctness"],
+                "grounding": row["grounding"],
+                "retrieval_relevance": row["retrieval_relevance"],
+                "usefulness": row["usefulness"],
+                "style": row["style"],
+                "comments": row["comments"],
+            }
+        )
+
+    return questions
+
+
 def main():
     questions = load_questions()
     if not questions:
@@ -148,7 +187,12 @@ def main():
         writer.writeheader()
         writer.writerows(all_rows)
 
+    grouped = group_results_by_question(all_rows)
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+        json.dump(grouped, f, indent=2, ensure_ascii=False)
+
     print(f"\nDone. Wrote {len(all_rows)} rows to {OUTPUT_CSV}")
+    print(f"       Wrote {len(grouped)} questions to {OUTPUT_JSON}")
     print(
         "Next: score each row (1-5) for correctness, grounding, "
         "retrieval_relevance, usefulness, and style where applicable."

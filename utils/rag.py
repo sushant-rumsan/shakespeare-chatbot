@@ -8,6 +8,16 @@ from utils.config import CHROMA_PATH, COLLECTION_NAME, EMBEDDING_MODEL, TOP_K
 from utils.llm import generate
 from utils.prompts import build_baseline, build_explain, build_stylised
 
+STYLISED_MAX_WORDS = 150
+
+
+def enforce_word_limit(text, max_words=STYLISED_MAX_WORDS):
+    """Keep stylised output within assignment limit."""
+    words = text.split()
+    if len(words) <= max_words:
+        return text
+    return " ".join(words[:max_words]) + " [...]"
+
 
 @dataclass
 class RetrievalResult:
@@ -81,7 +91,9 @@ class RAGSystem:
 
     def answer_stylised(self, question, play=None):
         retrieval = self.retrieve(question, play=play)
-        answer = generate(build_stylised(retrieval.context, question))
+        answer = enforce_word_limit(
+            generate(build_stylised(retrieval.context, question))
+        )
         evidence = self.format_evidence(
             retrieval.documents, retrieval.metadatas
         )

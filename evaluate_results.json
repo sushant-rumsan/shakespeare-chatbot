@@ -1,0 +1,431 @@
+[
+  {
+    "question_id": "Q1",
+    "source": "instructor",
+    "play": "Macbeth",
+    "question": "Why does Macbeth kill Duncan?",
+    "expected_focus": "Macbeth's ambition, the witches' prophecy, Duncan as an obstacle, and Lady Macbeth's pressure. Useful evidence may come from Acts 1–2.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Macbeth kills Duncan because he is driven by ambition and a desire for power. He believes that killing the king will allow him to take the throne and fulfill his own destiny.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Macbeth | Act 3 Scene 6 | macbeth_3_6 | Speakers: FORRES,LENNOX,LORD,STAGE_DIRECTION\nPlay: Macbeth | Act 3 Scene 6\nSummary: Scottish nobles discuss Macbeth’s tyranny and hope for resistance.\n\nFORRES: The palace.\n[Stage] Enter Lennox and another Lord.\nLENNOX: My former speeches have but hit your thoughts, Which can interpret farther; only I say Thing's have been strangely borne. The gracious Duncan Was pitied of Macbeth; marry, he was dead. And the right valiant Banquo walk'd too late, Whom, you may say, if't please you, Fleance kill'd, For Fleance fled. Men must not walk too late. Who cannot want the thought, how monstrous It was for Malcolm and for Donalbain To kill their gracious father? Damned fact! How it did grieve Macbeth! Did he not straight, In pious rage, the two delinquents tear That were the slaves of drink and thralls of sleep? Was not that nobly done? Ay, and ...\n\n---\n\n[2] Macbeth | Act 1 Scene 6 | macbeth_1_6 | Speakers: COMMERCIALLY,LADY MACBETH,MACBETH,STAGE_DIRECTION,WITH PERMISSION\nPlay: Macbeth | Act 1 Scene 6 | Location: Before Macbeth's castle.  Hautboys and torches\nSummary: Duncan arrives at Macbeth’s castle, unaware of the planned betrayal.\n\nMACBETH: If we should fail?\nLADY MACBETH: We fail? But screw your courage to the sticking-place And we'll not fail. When Duncan is asleep- Whereto the rather shall his day's hard journey Soundly invite him- his two chamberlains Will I with wine and wassail so convince That memory, the warder of the brain, Shall be a fume and the receipt of reason A limbeck only. When in swinish sleep Their drenched natures lie as in a death, What cannot you and I perform upon The unguarded Duncan? What not put upon His spongy officers, who shall bear the guilt Of our great quell?\nMACBETH: Bring forth men-children only, For thy undaunted mett...\n\n---\n\n[3] Macbeth | Act 1 Scene 4 | macbeth_1_4 | Speakers: BANQUO,DUNCAN,FLOURISH,FORRES,MACBETH,MALCOLM,STAGE_DIRECTION\nPlay: Macbeth | Act 1 Scene 4\nSummary: Duncan names Malcolm heir, creating an obstacle to Macbeth’s ambition.\n\nFORRES: The palace.\nFLOURISH: Enter Duncan, Malcolm, Donalbain, Lennox, and Attendants.\nDUNCAN: Is execution done on Cawdor? Are not Those in commission yet return'd?\nMALCOLM: My liege, They are not yet come back. But I have spoke With one that saw him die, who did report That very frankly he confess'd his treasons, Implored your Highness' pardon, and set forth A deep repentance. Nothing in his life Became him like the leaving it; he died As one that had been studied in his death, To throw away the dearest thing he owed As 'twere a careless trifle.\nDUNCAN: There's no art To find the mind's construction in the face: He was a gentleman on whom I built An absolute trust.\n[Stage] Ente...",
+        "retrieved_metadata": "Macbeth Act 3 Scene 6; Macbeth Act 1 Scene 6; Macbeth Act 1 Scene 4",
+        "response": "Macbeth kills Duncan because he wants to seize the throne for himself.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "Q2",
+    "source": "instructor",
+    "play": "Macbeth",
+    "question": "How does Macbeth change after becoming king?",
+    "expected_focus": "He becomes increasingly fearful, violent, paranoid, and tyrannical; relevant evidence includes Banquo's murder, the banquet, and later acts.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Macbeth's transformation is quite dramatic. As he becomes king, his guilt and paranoia grow, leading him to become increasingly tyrannical and isolated. He becomes consumed by the weight of his own ambition and the fear of being overthrown.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Macbeth | Act 5 Scene 2 | macbeth_5_2 | Speakers: ANGUS,CAITHNESS,LENNOX,MENTEITH,STAGE_DIRECTION\nPlay: Macbeth | Act 5 Scene 2 | Location: The country near Dunsinane. Drum and colors\nSummary: Scottish forces gather against Macbeth.\n\n[Stage] Enter Menteith, Caithness, Angus, Lennox, and Soldiers.\nMENTEITH: The English power is near, led on by Malcolm, His uncle Siward, and the good Macduff. Revenges burn in them, for their dear causes Would to the bleeding and the grim alarm Excite the mortified man.\nANGUS: Near Birnam Wood Shall we well meet them; that way are they coming.\nCAITHNESS: Who knows if Donalbain be with his brother?\nLENNOX: For certain, sir, he is not; I have a file Of all the gentry. There is Seward's son And many unrough youths that even now Protest their first of manhood.\nMENTEITH: What does the tyrant?\nCAITHNESS: Great Dunsinane he strongly fortifies. Some say he's mad;...\n\n---\n\n[2] Macbeth | Act 3 Scene 6 | macbeth_3_6 | Speakers: FORRES,LENNOX,LORD,STAGE_DIRECTION\nPlay: Macbeth | Act 3 Scene 6\nSummary: Scottish nobles discuss Macbeth’s tyranny and hope for resistance.\n\nFORRES: The palace.\n[Stage] Enter Lennox and another Lord.\nLENNOX: My former speeches have but hit your thoughts, Which can interpret farther; only I say Thing's have been strangely borne. The gracious Duncan Was pitied of Macbeth; marry, he was dead. And the right valiant Banquo walk'd too late, Whom, you may say, if't please you, Fleance kill'd, For Fleance fled. Men must not walk too late. Who cannot want the thought, how monstrous It was for Malcolm and for Donalbain To kill their gracious father? Damned fact! How it did grieve Macbeth! Did he not straight, In pious rage, the two delinquents tear That were the slaves of drink and thralls of sleep? Was not that nobly done? Ay, and ...\n\n---\n\n[3] Macbeth | Act 1 Scene 3 | macbeth_1_3 | Speakers: ANGUS,BANQUO,MACBETH\nPlay: Macbeth | Act 1 Scene 3 | Location: A heath. Thunder\nSummary: The witches greet Macbeth with prophecies that awaken his ambition.\n\nANGUS: Who was the Thane lives yet, But under heavy judgement bears that life Which he deserves to lose. Whether he was combined With those of Norway, or did line the rebel With hidden help and vantage, or that with both He labor'd in his country's wreck, I know not; But treasons capital, confess'd and proved, Have overthrown him.\nMACBETH: [Aside.] Glamis, and Thane of Cawdor! The greatest is behind. [To Ross and Angus] Thanks for your pains. [Aside to Banquo] Do you not hope your children shall be kings, When those that gave the Thane of Cawdor to me Promised no less to them?\nBANQUO: [Aside to Macbeth.] That, trusted home, Might yet enkindle you unto the...",
+        "retrieved_metadata": "Macbeth Act 5 Scene 2; Macbeth Act 3 Scene 6; Macbeth Act 1 Scene 3",
+        "response": "Macbeth's tyranny develops.\n\nIn plain modern English, this means that after becoming king, Macbeth becomes a tyrant and starts to abuse his power. He is no longer the same person he was before, but instead has become consumed by his own ambition and paranoia.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "Q3",
+    "source": "instructor",
+    "play": "Hamlet",
+    "question": "Why does Hamlet delay taking revenge?",
+    "expected_focus": "Uncertainty, moral hesitation, need to test Claudius's guilt, and reflective temperament; use evidence from the ghost scene, the play-within-a-play, and prayer scene.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Hamlet delays taking revenge because he's struggling with his own moral compass. He's torn between avenging his father's death and considering the consequences of his actions. Additionally, he's also trying to uncover the truth about his uncle's guilt, which further complicates his decision-making process.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Hamlet | Act 4 Scene 4 | hamlet_4_4 | Speakers: COMMERCIALLY,STAGE_DIRECTION,WITH PERMISSION\nPlay: Hamlet | Act 4 Scene 4 | Location: Near Elsinore\nSummary: Hamlet compares himself to Fortinbras and criticises his delay.\n\n[Stage] A thought which, quarter'd, hath but one part wisdom\n[Stage] And ever three parts coward,- I do not know\n[Stage] Why yet I live to say 'This thing's to do,'\n[Stage] Sith I have cause, and will, and strength, and means\n[Stage] To do't. Examples gross as earth exhort me.\n[Stage] Witness this army of such mass and charge,\n[Stage] Led by a delicate and tender prince,\n[Stage] Whose spirit, with divine ambition puff'd,\n[Stage] Makes mouths at the invisible event,\n[Stage] Exposing what is mortal and unsure\n[Stage] To all that fortune, death, and danger dare,\n[Stage] Even for an eggshell. Rightly to be great\n[Stage] Is not to stir without great argument,\n[Stage] ...\n\n---\n\n[2] Hamlet | Act 3 Scene 1 | hamlet_3_1 | Speakers: CLAUDIUS,ELSINORE,GERTRUDE,GUILDENSTERN,OPHELIA,POLONIUS,ROSENCRANTZ,STAGE_DIRECTION\nPlay: Hamlet | Act 3 Scene 1\nSummary: Hamlet reflects on existence, rejects Ophelia, and Claudius suspects danger.\n\nELSINORE: A room in the Castle.\n[Stage] Enter King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern,\n[Stage] and Lords.\nCLAUDIUS: And can you by no drift of circumstance Get from him why he puts on this confusion, Grating so harshly all his days of quiet With turbulent and dangerous lunacy?\nROSENCRANTZ: He does confess he feels himself distracted, But from what cause he will by no means speak.\nGUILDENSTERN: Nor do we find him forward to be sounded, But with a crafty madness keeps aloof When we would bring him on to some confession Of his true state.\nGERTRUDE: Did he receive you well?\nROSENCRANTZ: Most like a gentleman.\nGUILDENSTERN: But with much forcing of his dispositio...\n\n---\n\n[3] Hamlet | Act 3 Scene 3 | hamlet_3_3 | Speakers: CLAUDIUS,HAMLET,STAGE_DIRECTION\nPlay: Hamlet | Act 3 Scene 3 | Location: A room in the Castle\nSummary: Hamlet finds Claudius praying but delays killing him.\n\n[Stage] Be soft as sinews of the new-born babe!\n[Stage] All may be well.                                  He kneels.\n[Stage] Enter Hamlet.\nHAMLET: Now might I do it pat, now he is praying; And now I'll do't. And so he goes to heaven, And so am I reveng'd. That would be scann'd. A villain kills my father; and for that, I, his sole son, do this same villain send To heaven. Why, this is hire and salary, not revenge! He took my father grossly, full of bread, With all his crimes broad blown, as flush as May; And how his audit stands, who knows save heaven? But in our circumstance and course of thought, 'Tis heavy with him; and am I then reveng'd, To take him in the purgi...",
+        "retrieved_metadata": "Hamlet Act 4 Scene 4; Hamlet Act 3 Scene 1; Hamlet Act 3 Scene 3",
+        "response": "Hamlet delays taking revenge because he is considering the moral implications of killing Claudius while he is praying. Hamlet thinks that killing Claudius in this state would be a form of \"hire and salary\" rather than true revenge, as it would not account for all of Claudius' past crimes. He decides to wait until Claudius is drunk, asleep, or engaged in sinful behavior before taking action.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "Q4",
+    "source": "instructor",
+    "play": "Hamlet",
+    "question": "What is Ophelia's role in the tragedy?",
+    "expected_focus": "Ophelia is caught between Hamlet, Polonius, Laertes, and court politics; her distress and death reveal the human cost of revenge and manipulation.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Ophelia is a tragic heroine and the daughter of Polonius. She plays a significant part in the story, serving as a foil to Hamlet's indecision and madness. Her descent into madness is a poignant commentary on the devastating consequences of the tragic events unfolding around her.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Hamlet | Act 4 Scene 5 | hamlet_4_5 | Speakers: CLAUDIUS,COMMERCIALLY,LAERTES,OPHELIA,STAGE_DIRECTION,WITH PERMISSION\nPlay: Hamlet | Act 4 Scene 5\nSummary: Ophelia’s madness and Laertes’s return deepen the crisis.\n\nLAERTES: This nothing's more than matter.\nOPHELIA: There's rosemary, that's for remembrance. Pray you, love, remember. And there is pansies, that's for thoughts.\nLAERTES: A document in madness! Thoughts and remembrance fitted.\nOPHELIA: There's fennel for you, and columbines. There's rue for you, and here's some for me. We may call it herb of grace o' Sundays. O, you must wear your rue with a difference! There's a daisy. I would give you some violets, but they wither'd all when my father died. They say he made a good end. [Sings] For bonny sweet Robin is all my joy.\nLAERTES: Thought and affliction, passion, hell itself, She turns to favour and to prettiness.\nOPHELIA: (sings) And will he not come...\n\n---\n\n[2] Hamlet | Act 2 Scene 1 | hamlet_2_1 | Speakers: OPHELIA,POLONIUS,STAGE_DIRECTION\nPlay: Hamlet | Act 2 Scene 1\nSummary: Polonius sends Reynaldo to spy and hears Hamlet behaved strangely toward Ophelia.\n\nOPHELIA: My lord, as I was sewing in my closet, Lord Hamlet, with his doublet all unbrac'd, No hat upon his head, his stockings foul'd, Ungart'red, and down-gyved to his ankle; Pale as his shirt, his knees knocking each other, And with a look so piteous in purport As if he had been loosed out of hell To speak of horrors- he comes before me.\nPOLONIUS: Mad for thy love?\nOPHELIA: My lord, I do not know, But truly I do fear it.\nPOLONIUS: What said he?\nOPHELIA: He took me by the wrist and held me hard; Then goes he to the length of all his arm, And, with his other hand thus o'er his brow, He falls to such perusal of my face As he would draw it. Long stay'd he so. At last, a l...\n\n---\n\n[3] Hamlet | Act 1 Scene 3 | hamlet_1_3 | Speakers: ELSINORE,LAERTES,OPHELIA,STAGE_DIRECTION\nPlay: Hamlet | Act 1 Scene 3\nSummary: Laertes and Polonius warn Ophelia about Hamlet.\n\nELSINORE: A room in the house of Polonius.\n[Stage] Enter Laertes and Ophelia.\nLAERTES: My necessaries are embark'd. Farewell. And, sister, as the winds give benefit And convoy is assistant, do not sleep, But let me hear from you.\nOPHELIA: Do you doubt that?\nLAERTES: For Hamlet, and the trifling of his favour, Hold it a fashion, and a toy in blood; A violet in the youth of primy nature, Forward, not permanent- sweet, not lasting; The perfume and suppliance of a minute; No more.\nOPHELIA: No more but so?\nLAERTES: Think it no more. For nature crescent does not grow alone In thews and bulk; but as this temple waxes, The inward service of the mind and soul Grows wide withal. Perhaps he loves you now, And now n...",
+        "retrieved_metadata": "Hamlet Act 4 Scene 5; Hamlet Act 2 Scene 1; Hamlet Act 1 Scene 3",
+        "response": "Ophelia is... a tragic figure whose descent into madness and death is deeply connected to the chaos and destruction that surrounds her.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "Q5",
+    "source": "instructor",
+    "play": "Romeo and Juliet",
+    "question": "Why is Juliet conflicted after Romeo kills Tybalt?",
+    "expected_focus": "Juliet loves Romeo but Tybalt is her kinsman; she must reconcile romantic loyalty with family loyalty.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Juliet is conflicted because she loves both her family and Romeo. She's torn between her loyalty to the Capulets and her love for Romeo, who has just committed a serious offense by killing her cousin Tybalt. This internal struggle reflects the tragic circumstances of their star-crossed love.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Romeo and Juliet | Act 3 Scene 1 | romeo_and_juliet_3_1 | Speakers: BENVOLIO,CAPULET,CITIZEN,PRINCE,ROMEO,STAGE_DIRECTION,TYBALT\nPlay: Romeo and Juliet | Act 3 Scene 1 | Location: A public place\nSummary: Tybalt kills Mercutio; Romeo kills Tybalt and is banished.\n\n[Stage] Enter Tybalt.\nBENVOLIO: Here comes the furious Tybalt back again.\nROMEO: Alive in triumph, and Mercutio slain? Away to heaven respective lenity, And fire-ey'd fury be my conduct now! Now, Tybalt, take the 'villain' back again That late thou gavest me; for Mercutio's soul Is but a little way above our heads, Staying for thine to keep him company. Either thou or I, or both, must go with him.\nTYBALT: Thou, wretched boy, that didst consort him here, Shalt with him hence.\nROMEO: This shall determine that. They fight. Tybalt falls.\nBENVOLIO: Romeo, away, be gone! The citizens are up, and Tybalt slain. Stand not amaz'd. The Prince will doom thee death If t...\n\n---\n\n[2] Romeo and Juliet | Act 3 Scene 1 | romeo_and_juliet_3_1 | Speakers: CAPULET,MONTAGUE,PRINCE,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 3 Scene 1 | Location: A public place\nSummary: Tybalt kills Mercutio; Romeo kills Tybalt and is banished.\n\nCAPULET: Wife. He is a kinsman to the Montague; Affection makes him false, he speaks not true. Some twenty of them fought in this black strife, And all those twenty could but kill one life. I beg for justice, which thou, Prince, must give. Romeo slew Tybalt; Romeo must not live.\nPRINCE: Romeo slew him; he slew Mercutio. Who now the price of his dear blood doth owe?\nMONTAGUE: Not Romeo, Prince; he was Mercutio's friend; His fault concludes but what the law should end, The life of Tybalt.\nPRINCE: And for that offence Immediately we do exile him hence. I have an interest in your hate's proceeding, My blood for your rude brawls doth lie a-bleeding; But I'll ame...\n\n---\n\n[3] Romeo and Juliet | Act 3 Scene 2 | romeo_and_juliet_3_2 | Speakers: JULIET,NURSE,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 3 Scene 2 | Location: Capulet's orchard\nSummary: Juliet learns Romeo killed Tybalt and is torn between love and family loyalty.\n\nNURSE: Will you speak well of him that kill'd your cousin?\nJULIET: Shall I speak ill of him that is my husband? Ah, poor my lord, what tongue shall smooth thy name When I, thy three-hours wife, have mangled it? But wherefore, villain, didst thou kill my cousin? That villain cousin would have kill'd my husband. Back, foolish tears, back to your native spring! Your tributary drops belong to woe, Which you, mistaking, offer up to joy. My husband lives, that Tybalt would have slain; And Tybalt's dead, that would have slain my husband. All this is comfort; wherefore weep I then? Some word there was, worser than Tybalt's death, That murd're...",
+        "retrieved_metadata": "Romeo and Juliet Act 3 Scene 1; Romeo and Juliet Act 3 Scene 1; Romeo and Juliet Act 3 Scene 2",
+        "response": "Juliet is conflicted because she loves Romeo and feels torn between her love for him and her family loyalty. She knows that Romeo killed her cousin Tybalt, which makes her feel guilty and ashamed of her husband's actions.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G1",
+    "source": "group",
+    "play": "Hamlet",
+    "question": "Who is Hamlet?",
+    "expected_focus": "Prince of Denmark, son of the late King Hamlet, nephew of Claudius; central figure seeking revenge.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Hamlet is the main character in one of Shakespeare's most famous plays. He's a prince who seeks revenge for his father's murder and navigates complex emotions along the way.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Hamlet | Act 2 Scene 2 | hamlet_2_2 | Speakers: CLAUDIUS,ELSINORE,FLOURISH,GERTRUDE,GUILDENSTERN,POLONIUS,ROSENCRANTZ,STAGE_DIRECTION\nPlay: Hamlet | Act 2 Scene 2\nSummary: Rosencrantz and Guildenstern arrive; Hamlet plans to use players to test Claudius.\n\nELSINORE: A room in the Castle.\nFLOURISH: [Enter King and Queen, Rosencrantz and Guildenstern, cum aliis.\nCLAUDIUS: Welcome, dear Rosencrantz and Guildenstern. Moreover that we much did long to see you, The need we have to use you did provoke Our hasty sending. Something have you heard Of Hamlet's transformation. So I call it, Sith nor th' exterior nor the inward man Resembles that it was. What it should be, More than his father's death, that thus hath put him So much from th' understanding of himself, I cannot dream of. I entreat you both That, being of so young days brought up with him, And since so neighbour'd to his youth and haviour, That you vouchsafe your rest he...\n\n---\n\n[2] Hamlet | Act 2 Scene 2 | hamlet_2_2 | Speakers: GUILDENSTERN,HAMLET,POLONIUS,ROSENCRANTZ,STAGE_DIRECTION\nPlay: Hamlet | Act 2 Scene 2\nSummary: Rosencrantz and Guildenstern arrive; Hamlet plans to use players to test Claudius.\n\nGUILDENSTERN: O, there has been much throwing about of brains.\nHAMLET: Do the boys carry it away?\nROSENCRANTZ: Ay, that they do, my lord- Hercules and his load too.\nHAMLET: It is not very strange; for my uncle is King of Denmark, and those that would make mows at him while my father lived give twenty, forty, fifty, a hundred ducats apiece for his picture in little. 'Sblood, there is something in this more than natural, if philosophy could find it out. Flourish for the Players.\nGUILDENSTERN: There are the players.\nHAMLET: Gentlemen, you are welcome to Elsinore. Your hands, come! Th' appurtenance of welcome is fashion and ceremony. Let me comply with you in this garb, les...\n\n---\n\n[3] Hamlet | Act 3 Scene 1 | hamlet_3_1 | Speakers: CLAUDIUS,ELSINORE,GERTRUDE,GUILDENSTERN,OPHELIA,POLONIUS,ROSENCRANTZ,STAGE_DIRECTION\nPlay: Hamlet | Act 3 Scene 1\nSummary: Hamlet reflects on existence, rejects Ophelia, and Claudius suspects danger.\n\nELSINORE: A room in the Castle.\n[Stage] Enter King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern,\n[Stage] and Lords.\nCLAUDIUS: And can you by no drift of circumstance Get from him why he puts on this confusion, Grating so harshly all his days of quiet With turbulent and dangerous lunacy?\nROSENCRANTZ: He does confess he feels himself distracted, But from what cause he will by no means speak.\nGUILDENSTERN: Nor do we find him forward to be sounded, But with a crafty madness keeps aloof When we would bring him on to some confession Of his true state.\nGERTRUDE: Did he receive you well?\nROSENCRANTZ: Most like a gentleman.\nGUILDENSTERN: But with much forcing of his dispositio...",
+        "retrieved_metadata": "Hamlet Act 2 Scene 2; Hamlet Act 2 Scene 2; Hamlet Act 3 Scene 1",
+        "response": "Hamlet is a prince who has been deeply affected by the death of his father and the marriage of his mother to his uncle.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G2",
+    "source": "group",
+    "play": "Macbeth",
+    "question": "Who is Lady Macbeth and what does she want?",
+    "expected_focus": "Macbeth's wife; ambitious; urges Macbeth to seize the crown after Duncan's murder.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "Lady Macbeth is the wife of Macbeth, a Scottish nobleman. She's a strong-willed and ambitious character who wants to help her husband become king by any means necessary.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Macbeth | Act 3 Scene 2 | macbeth_3_2 | Speakers: LADY MACBETH,MACBETH,SERVANT,STAGE_DIRECTION\nPlay: Macbeth | Act 3 Scene 2 | Location: The palace\nSummary: Macbeth and Lady Macbeth reflect on insecurity after gaining power.\n\n[Stage] Enter Lady Macbeth and a Servant.\nLADY MACBETH: Is Banquo gone from court?\nSERVANT: Ay, madam, but returns again tonight.\nLADY MACBETH: Say to the King I would attend his leisure For a few words.\nSERVANT: Madam, I will.                                  Exit.\nLADY MACBETH: Nought's had, all's spent, Where our desire is got without content. 'Tis safer to be that which we destroy Than by destruction dwell in doubtful joy.\n[Stage] Enter Macbeth.\n[Stage] How now, my lord? Why do you keep alone,\n[Stage] Of sorriest fancies your companions making,\n[Stage] Using those thoughts which should indeed have died\n[Stage] With them they think on? Things without all rem...\n\n---\n\n[2] Macbeth | Act 3 Scene 1 | macbeth_3_1 | Speakers: ATTENDANT,BANQUO,FAREWELL,FORRES,LADY MACBETH,MACBETH,STAGE_DIRECTION\nPlay: Macbeth | Act 3 Scene 1\nSummary: Macbeth fears Banquo and arranges to murder him and Fleance.\n\nFORRES: The palace.\n[Stage] Enter Banquo.\nBANQUO: Thou hast it now: King, Cawdor, Glamis, all, As the weird women promised, and I fear Thou play'dst most foully for't; yet it was said It should not stand in thy posterity, But that myself should be the root and father Of many kings. If there come truth from them (As upon thee, Macbeth, their speeches shine) Why, by the verities on thee made good, May they not be my oracles as well And set me up in hope? But hush, no more. Sennet sounds. Enter Macbeth as King, Lady Macbeth as Queen, Lennox, Ross, Lords, Ladies, and Attendants.\nMACBETH: Here's our chief guest.\nLADY MACBETH: If he had been forgotten, It had been as a gap in our great feast And ...\n\n---\n\n[3] Macbeth | Act 1 Scene 5 | macbeth_1_5 | Speakers: LADY MACBETH,MACBETH,MESSENGER,STAGE_DIRECTION\nPlay: Macbeth | Act 1 Scene 5\nSummary: Lady Macbeth reads Macbeth’s letter and resolves to push him toward murder.\n\nMESSENGER: The King comes here tonight.\nLADY MACBETH: Thou'rt mad to say it! Is not thy master with him? who, were't so, Would have inform'd for preparation.\nMESSENGER: So please you, it is true; our Thane is coming. One of my fellows had the speed of him, Who, almost dead for breath, had scarcely more Than would make up his message.\nLADY MACBETH: Give him tending; He brings great news.                        Exit Messenger. The raven himself is hoarse That croaks the fatal entrance of Duncan Under my battlements. Come, you spirits That tend on mortal thoughts, unsex me here And fill me from the crown to the toe top-full Of direst cruelty! Make thick my blood, Stop up the acc...",
+        "retrieved_metadata": "Macbeth Act 3 Scene 2; Macbeth Act 3 Scene 1; Macbeth Act 1 Scene 5",
+        "response": "Lady Macbeth is the wife of Macbeth, a Scottish noblewoman who has gained power after her husband's ascension to the throne. She wants to maintain their grip on power and ensure that they can continue to rule without being threatened by others, particularly Banquo and his son Fleance.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G3",
+    "source": "group",
+    "play": "Romeo and Juliet",
+    "question": "What is the conflict between the Montagues and the Capulets?",
+    "expected_focus": "Long-standing family feud in Verona causing street violence and pressure on the lovers.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "The conflict between the Montagues and the Capulets is a long-standing feud or rivalry. It's a deep-seated hatred that has been building over time, fueled by past grievances and a desire to prove superiority.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Romeo and Juliet | Act 1 Scene 5 | romeo_and_juliet_1_5 | Speakers: CAPULET,JULIET,ROMEO,TYBALT\nPlay: Romeo and Juliet | Act 1 Scene 5 | Location: Capulet's house\nSummary: Romeo and Juliet meet and fall in love before learning they are from enemy families.\n\nTYBALT: This, by his voice, should be a Montague. Fetch me my rapier, boy. What, dares the slave Come hither, cover'd with an antic face, To fleer and scorn at our solemnity? Now, by the stock and honour of my kin, To strike him dead I hold it not a sin.\nCAPULET: Why, how now, kinsman? Wherefore storm you so?\nTYBALT: Uncle, this is a Montague, our foe; A villain, that is hither come in spite To scorn at our solemnity this night.\nCAPULET: Young Romeo is it?\nTYBALT: 'Tis he, that villain Romeo.\nCAPULET: Content thee, gentle coz, let him alone. 'A bears him like a portly gentleman, And, to say truth, Verona brags of him To be a virtu...\n\n---\n\n[2] Romeo and Juliet | Act 1 Scene 1 | romeo_and_juliet_1_1 | Speakers: BENVOLIO,M,MONTAGUE,PRINCE,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 1 Scene 1\nSummary: A street fight shows the feud; Romeo is lovesick for Rosaline.\n\nMONTAGUE: Thou villain Capulet!- Hold me not, let me go.\nM: Wife. Thou shalt not stir one foot to seek a foe.\n[Stage] Enter Prince Escalus, with his Train.\nPRINCE: Rebellious subjects, enemies to peace, Profaners of this neighbour-stained steel- Will they not hear? What, ho! you men, you beasts, That quench the fire of your pernicious rage With purple fountains issuing from your veins! On pain of torture, from those bloody hands Throw your mistempered weapons to the ground And hear the sentence of your moved prince. Three civil brawls, bred of an airy word By thee, old Capulet, and Montague, Have thrice disturb'd the quiet of our streets And made Verona's ancient citizens Cast by...\n\n---\n\n[3] Romeo and Juliet | Act 1 Scene 2 | romeo_and_juliet_1_2 | Speakers: CAPULET,PAR,SERV,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 1 Scene 2 | Location: A Street\nSummary: Paris asks to marry Juliet, while Romeo learns about the Capulet feast.\n\n[Stage] Enter Capulet, County Paris, and [Servant] -the Clown.\nCAPULET: But Montague is bound as well as I, In penalty alike; and 'tis not hard, I think, For men so old as we to keep the peace.\nPAR: Of honourable reckoning are you both, And pity 'tis you liv'd at odds so long. But now, my lord, what say you to my suit?\nCAPULET: But saying o'er what I have said before: My child is yet a stranger in the world, She hath not seen the change of fourteen years; Let two more summers wither in their pride Ere we may think her ripe to be a bride.\nPAR: Younger than she are happy mothers made.\nCAPULET: And too soon marr'd are those so early made. The earth hath...",
+        "retrieved_metadata": "Romeo and Juliet Act 1 Scene 5; Romeo and Juliet Act 1 Scene 1; Romeo and Juliet Act 1 Scene 2",
+        "response": "The conflict between the Montagues and the Capulets is a feud or an old quarrel that has been going on for some time. It's described as \"ancient\" and \"cank'red with peace\" in Act 1, Scene 1. The exact cause of the feud is not specified, but it seems to be based on a long-standing rivalry between the two families.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G4",
+    "source": "group",
+    "play": "Hamlet",
+    "question": "What is the ghost and why does it matter?",
+    "expected_focus": "Ghost claims to be Hamlet's father, accuses Claudius of murder, sets revenge plot in motion.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "The ghost in Shakespeare's plays often represents a character's conscience or a lingering presence from their past. In many of his tragedies, the ghost serves as a reminder of past wrongdoings or unfulfilled obligations, adding to the sense of guilt and regret felt by the characters. The ghost's appearance can also foreshadow events to come, highlighting the consequences of the characters' actions.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Hamlet | Act 1 Scene 5 | hamlet_1_5 | Speakers: ELSINORE,GHOST,HAMLET,STAGE_DIRECTION\nPlay: Hamlet | Act 1 Scene 5\nSummary: The ghost says Claudius murdered him and commands revenge.\n\nELSINORE: The Castle. Another part of the fortifications.\n[Stage] Enter Ghost and Hamlet.\nHAMLET: Whither wilt thou lead me? Speak! I'll go no further.\nGHOST: Mark me.\nHAMLET: I will.\nGHOST: My hour is almost come, When I to sulph'rous and tormenting flames Must render up myself.\nHAMLET: Alas, poor ghost!\nGHOST: Pity me not, but lend thy serious hearing To what I shall unfold.\nHAMLET: Speak. I am bound to hear.\nGHOST: So art thou to revenge, when thou shalt hear.\nHAMLET: What?\nGHOST: I am thy father's spirit, Doom'd for a certain term to walk the night, And for the day confin'd to fast in fires, Till the foul crimes done in my days of nature Are burnt and purg'd away. But that I am forbid To t...\n\n---\n\n[2] Hamlet | Act 1 Scene 4 | hamlet_1_4 | Speakers: HAMLET,HORATIO,MARCELLUS,STAGE_DIRECTION\nPlay: Hamlet | Act 1 Scene 4\nSummary: Hamlet waits for the ghost and follows it.\n\nHORATIO: No, by no means!\nHAMLET: It will not speak. Then will I follow it.\nHORATIO: Do not, my lord!\nHAMLET: Why, what should be the fear? I do not set my life at a pin's fee; And for my soul, what can it do to that, Being a thing immortal as itself? It waves me forth again. I'll follow it.\nHORATIO: What if it tempt you toward the flood, my lord, Or to the dreadful summit of the cliff That beetles o'er his base into the sea, And there assume some other, horrible form Which might deprive your sovereignty of reason And draw you into madness? Think of it. The very place puts toys of desperation, Without more motive, into every brain That looks so many fadoms to the sea And hears it roar beneath.\nHAMLET: It wave...\n\n---\n\n[3] Hamlet | Act 1 Scene 5 | hamlet_1_5 | Speakers: GHOST,HAMLET\nPlay: Hamlet | Act 1 Scene 5\nSummary: The ghost says Claudius murdered him and commands revenge.\n\nHAMLET: Haste me to know't, that I, with wings as swift As meditation or the thoughts of love, May sweep to my revenge.\nGHOST: I find thee apt; And duller shouldst thou be than the fat weed That rots itself in ease on Lethe wharf, Wouldst thou not stir in this. Now, Hamlet, hear. 'Tis given out that, sleeping in my orchard, A serpent stung me. So the whole ear of Denmark Is by a forged process of my death Rankly abus'd. But know, thou noble youth, The serpent that did sting thy father's life Now wears his crown.\nHAMLET: O my prophetic soul! My uncle?\nGHOST: Ay, that incestuous, that adulterate beast, With witchcraft of his wit, with traitorous gifts- O wicked wit and gifts, that have the power...",
+        "retrieved_metadata": "Hamlet Act 1 Scene 5; Hamlet Act 1 Scene 4; Hamlet Act 1 Scene 5",
+        "response": "Hamlet's father's spirit is the ghost. It matters because the ghost reveals that Claudius murdered him and commands Hamlet to seek revenge.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G5",
+    "source": "group",
+    "play": "Macbeth",
+    "question": "What do the witches tell Macbeth?",
+    "expected_focus": "Prophecies including Thane of Cawdor and future kingship; help spark his ambition.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "The witches, also known as the Weird Sisters, prophesize to Macbeth that he will become Thane of Cawdor and eventually King of Scotland. They also foretell his downfall and death at the hands of Macduff.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Macbeth | Act 1 Scene 3 | macbeth_1_3 | Speakers: BANQUO,FIRST WITCH,MACBETH,SECOND WITCH,STAGE_DIRECTION,THIRD WITCH\nPlay: Macbeth | Act 1 Scene 3 | Location: A heath. Thunder\nSummary: The witches greet Macbeth with prophecies that awaken his ambition.\n\nFIRST WITCH: All hail, Macbeth, hail to thee, Thane of Glamis!\nSECOND WITCH: All hail, Macbeth, hail to thee, Thane of Cawdor!\nTHIRD WITCH: All hail, Macbeth, that shalt be King hereafter!\nBANQUO: Good sir, why do you start, and seem to fear Things that do sound so fair? I' the name of truth, Are ye fantastical or that indeed Which outwardly ye show? My noble partner You greet with present grace and great prediction Of noble having and of royal hope, That he seems rapt withal. To me you speak not. If you can look into the seeds of time, And say which grain will grow and which will not, Speak then to me, who neither beg nor fear Your favors nor your hate.\n...\n\n---\n\n[2] Macbeth | Act 1 Scene 3 | macbeth_1_3 | Speakers: ALL,BANQUO,FIRST WITCH,MACBETH,SECOND WITCH,STAGE_DIRECTION,THIRD WITCH\nPlay: Macbeth | Act 1 Scene 3 | Location: A heath. Thunder\nSummary: The witches greet Macbeth with prophecies that awaken his ambition.\n\n[Stage] Enter the three Witches.\nFIRST WITCH: Where hast thou been, sister?\nSECOND WITCH: Killing swine.\nTHIRD WITCH: Sister, where thou?\nFIRST WITCH: A sailor's wife had chestnuts in her lap, And mounch'd, and mounch'd, and mounch'd. \"Give me,\" quoth I. \"Aroint thee, witch!\" the rump-fed ronyon cries. Her husband's to Aleppo gone, master o' the Tiger; But in a sieve I'll thither sail, And, like a rat without a tail, I'll do, I'll do, and I'll do.\nSECOND WITCH: I'll give thee a wind.\nFIRST WITCH: Thou'rt kind.\nTHIRD WITCH: And I another.\nFIRST WITCH: I myself have all the other, And the very ports they blow, All the quarters that they know I' the shipman'...\n\n---\n\n[3] Macbeth | Act 4 Scene 1 | macbeth_4_1 | Speakers: ALL,FIRST APPARITION,FIRST WITCH,MACBETH,SECOND APPARITION,SECOND WITCH,STAGE_DIRECTION,THIRD WITCH,THUNDER\nPlay: Macbeth | Act 4 Scene 1 | Location: A cavern. In the middle, a boiling cauldron. Thunder\nSummary: The witches give Macbeth ambiguous prophecies that make him overconfident.\n\n[Stage] Enter Macbeth.\nMACBETH: How now, you secret, black, and midnight hags? What is't you do?\nALL: A deed without a name.\nMACBETH: I conjure you, by that which you profess (Howeer you come to know it) answer me: Though you untie the winds and let them fight Against the churches, though the yesty waves Confound and swallow navigation up, Though bladed corn be lodged and trees blown down, Though castles topple on their warders' heads, Though palaces and pyramids do slope Their heads to their foundations, though the treasure Of nature's germaines tumble all together Even till destruction sicken, answer me To what...",
+        "retrieved_metadata": "Macbeth Act 1 Scene 3; Macbeth Act 1 Scene 3; Macbeth Act 4 Scene 1",
+        "response": "Macbeth is told that he will be King hereafter.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G6",
+    "source": "group",
+    "play": "Hamlet",
+    "question": "Speak briefly as Hamlet reflecting on revenge.",
+    "expected_focus": "Stylised creative response; not factual evidence. Should sound Shakespearean but stay clear.",
+    "runs": [
+      {
+        "interaction": "stylised",
+        "system": "rag",
+        "retrieved_passage": "[1] Hamlet | Act 1 Scene 1 | hamlet_1_1 | Speakers: BERNARDO,HORATIO,MARCELLUS,STAGE_DIRECTION\nPlay: Hamlet | Act 1 Scene 1\nSummary: Guards and Horatio see the ghost and decide to tell Hamlet.\n\n[Stage] If thou hast any sound, or use of voice,\n[Stage] Speak to me.\n[Stage] If there be any good thing to be done,\n[Stage] That may to thee do ease, and, race to me,\n[Stage] Speak to me.\n[Stage] If thou art privy to thy country's fate,\n[Stage] Which happily foreknowing may avoid,\n[Stage] O, speak!\n[Stage] Or if thou hast uphoarded in thy life\n[Stage] Extorted treasure in the womb of earth\n[Stage] (For which, they say, you spirits oft walk in death),\n[Stage] The cock crows.\n[Stage] Speak of it! Stay, and speak!- Stop it, Marcellus!\nMARCELLUS: Shall I strike at it with my partisan?\nHORATIO: Do, if it will not stand.\nBERNARDO: 'Tis here!\nHORATIO: 'Tis here!\nMARCELLUS: 'Tis gone!\n[Stage] Exit G...\n\n---\n\n[2] Hamlet | Act 1 Scene 5 | hamlet_1_5 | Speakers: ELSINORE,GHOST,HAMLET,STAGE_DIRECTION\nPlay: Hamlet | Act 1 Scene 5\nSummary: The ghost says Claudius murdered him and commands revenge.\n\nELSINORE: The Castle. Another part of the fortifications.\n[Stage] Enter Ghost and Hamlet.\nHAMLET: Whither wilt thou lead me? Speak! I'll go no further.\nGHOST: Mark me.\nHAMLET: I will.\nGHOST: My hour is almost come, When I to sulph'rous and tormenting flames Must render up myself.\nHAMLET: Alas, poor ghost!\nGHOST: Pity me not, but lend thy serious hearing To what I shall unfold.\nHAMLET: Speak. I am bound to hear.\nGHOST: So art thou to revenge, when thou shalt hear.\nHAMLET: What?\nGHOST: I am thy father's spirit, Doom'd for a certain term to walk the night, And for the day confin'd to fast in fires, Till the foul crimes done in my days of nature Are burnt and purg'd away. But that I am forbid To t...\n\n---\n\n[3] Hamlet | Act 2 Scene 2 | hamlet_2_2 | Speakers: GUILDENSTERN,HAMLET,POLONIUS,ROSENCRANTZ,STAGE_DIRECTION\nPlay: Hamlet | Act 2 Scene 2\nSummary: Rosencrantz and Guildenstern arrive; Hamlet plans to use players to test Claudius.\n\nHAMLET: Slanders, sir; for the satirical rogue says here that old men have grey beards; that their faces are wrinkled; their eyes purging thick amber and plum-tree gum; and that they have a plentiful lack of wit, together with most weak hams. All which, sir, though I most powerfully and potently believe, yet I hold it not honesty to have it thus set down; for you yourself, sir, should be old as I am if, like a crab, you could go backward.\nPOLONIUS: [aside] Though this be madness, yet there is a method in't.- Will You walk out of the air, my lord?\nHAMLET: Into my grave?\nPOLONIUS: Indeed, that is out o' th' air. [Aside] How pregnant sometimes his replies are! a happiness ...",
+        "retrieved_metadata": "Hamlet Act 1 Scene 1; Hamlet Act 1 Scene 5; Hamlet Act 2 Scene 2",
+        "response": "[Creative stylised response — not factual evidence]\n\n\"Whispers of the wind, echoes of the past,\nA fire that burns within, a justice to amass.\nThe ghost's words still linger, like autumn's chill,\nRevenge, a burning passion, my heart doth fill.\n\nIn darkness, I shall stalk, with silent feet,\nAnd strike at Claudius' heart, where guilt doth meet.\nBut oh, the weight of conscience, heavy as stone,\nDoth press upon my soul, and makes me moan.\n\nYet still, I'll follow fate's dark path, undeterred,\nFor justice is my guide, and honor my creed.\nThe serpent that didst slay my father's life,\nShall meet its end, in my swift, avenging strife.\"",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G7",
+    "source": "group",
+    "play": "Romeo and Juliet",
+    "question": "Speak briefly as Juliet about love and family duty.",
+    "expected_focus": "Stylised creative response; tension between love for Romeo and loyalty to family.",
+    "runs": [
+      {
+        "interaction": "stylised",
+        "system": "rag",
+        "retrieved_passage": "[1] Romeo and Juliet | Act 1 Scene 3 | romeo_and_juliet_1_3 | Speakers: JULIET,NURSE,WIFE\nPlay: Romeo and Juliet | Act 1 Scene 3 | Location: Capulet's house\nSummary: Lady Capulet and the Nurse discuss Paris as a husband for Juliet.\n\nNURSE: Yes, madam. Yet I cannot choose but laugh To think it should leave crying and say 'Ay.' And yet, I warrant, it had upon its brow A bump as big as a young cock'rel's stone; A perilous knock; and it cried bitterly. 'Yea,' quoth my husband, 'fall'st upon thy face? Thou wilt fall backward when thou comest to age; Wilt thou not, Jule?' It stinted, and said 'Ay.'\nJULIET: And stint thou too, I pray thee, nurse, say I.\nNURSE: Peace, I have done. God mark thee to his grace! Thou wast the prettiest babe that e'er I nurs'd. An I might live to see thee married once, I have my wish.\nWIFE: Marry, that 'marry' is the very theme I came to talk of. Tell me, d...\n\n---\n\n[2] Romeo and Juliet | Act 5 Scene 1 | romeo_and_juliet_5_1 | Speakers: MAN,MANTUA,ROMEO,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 5 Scene 1\nSummary: Romeo hears Juliet is dead and buys poison.\n\nMANTUA: A street.\n[Stage] Enter Romeo.\nROMEO: If I may trust the flattering truth of sleep My dreams presage some joyful news at hand. My bosom's lord sits lightly in his throne, And all this day an unaccustom'd spirit Lifts me above the ground with cheerful thoughts. I dreamt my lady came and found me dead (Strange dream that gives a dead man leave to think!) And breath'd such life with kisses in my lips That I reviv'd and was an emperor. Ah me! how sweet is love itself possess'd, When but love's shadows are so rich in joy!\n[Stage] Enter Romeo's Man Balthasar, booted.\n[Stage] News from Verona! How now, Balthasar?\n[Stage] Dost thou not bring me letters from the friar?\n[Stage] How doth my lady? Is m...\n\n---\n\n[3] Romeo and Juliet | Act 2 Scene 5 | romeo_and_juliet_2_5 | Speakers: JULIET,NURSE,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 2 Scene 5 | Location: Capulet's orchard\nSummary: The Nurse tells Juliet about Romeo’s marriage plan.\n\nJULIET: Here's such a coil! Come, what says Romeo?\nNURSE: Have you got leave to go to shrift to-day?\nJULIET: I have.\nNURSE: Then hie you hence to Friar Laurence' cell; There stays a husband to make you a wife. Now comes the wanton blood up in your cheeks: They'll be in scarlet straight at any news. Hie you to church; I must another way, To fetch a ladder, by the which your love Must climb a bird's nest soon when it is dark. I am the drudge, and toil in your delight; But you shall bear the burthen soon at night. Go; I'll to dinner; hie you to the cell.\nJULIET: Hie to high fortune! Honest nurse, farewell.\n[Stage] Exeunt.",
+        "retrieved_metadata": "Romeo and Juliet Act 1 Scene 3; Romeo and Juliet Act 5 Scene 1; Romeo and Juliet Act 2 Scene 5",
+        "response": "[Creative stylised response — not factual evidence]\n\n\"Love's whispered secrets dance upon my lips,\nAs family duty's heavy chains I wear.\nA delicate balance 'twixt heart and kin,\nI find myself torn, with passions to share.\"\n\n(Note: This monologue is a creative interpretation of Juliet's thoughts and feelings, rather than a direct quote from the play.)",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  },
+  {
+    "question_id": "G8",
+    "source": "group",
+    "play": "Romeo and Juliet",
+    "question": "How does the family feud shape the tragedy?",
+    "expected_focus": "The feud creates violence, secrecy, pressure, miscommunication, and ultimately the conditions for the lovers' deaths.",
+    "runs": [
+      {
+        "interaction": "explain",
+        "system": "baseline",
+        "retrieved_passage": "",
+        "retrieved_metadata": "",
+        "response": "The family feud can create a sense of tension and conflict that drives the plot forward. It can also lead to misunderstandings and miscommunications, which can escalate into tragic events. Additionally, the feud can reveal character flaws and motivations, such as pride, ambition, or revenge, that contribute to the downfall of characters.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      },
+      {
+        "interaction": "explain",
+        "system": "rag",
+        "retrieved_passage": "[1] Romeo and Juliet | Act 0 Scene 0 | romeo_and_juliet_0_0 | Speakers: CHORUS,COMMERCIALLY,STAGE_DIRECTION,WITH PERMISSION\nPlay: Romeo and Juliet | Act 0 Scene 0 | Location: Prologue\nSummary: The prologue introduces the feud and announces that the lovers’ deaths will end it.\n\n[Stage] Enter Chorus.\nCHORUS: Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes A pair of star-cross'd lovers take their life; Whose misadventur'd piteous overthrows Doth with their death bury their parents' strife. The fearful passage of their death-mark'd love, And the continuance of their parents' rage, Which, but their children's end, naught could remove, Is now the two hours' traffic of our stage; The which if you with patient ears attend, What here shall miss, our toil shall ...\n\n---\n\n[2] Romeo and Juliet | Act 3 Scene 2 | romeo_and_juliet_3_2 | Speakers: JULIET,NURSE,STAGE_DIRECTION\nPlay: Romeo and Juliet | Act 3 Scene 2 | Location: Capulet's orchard\nSummary: Juliet learns Romeo killed Tybalt and is torn between love and family loyalty.\n\nNURSE: Will you speak well of him that kill'd your cousin?\nJULIET: Shall I speak ill of him that is my husband? Ah, poor my lord, what tongue shall smooth thy name When I, thy three-hours wife, have mangled it? But wherefore, villain, didst thou kill my cousin? That villain cousin would have kill'd my husband. Back, foolish tears, back to your native spring! Your tributary drops belong to woe, Which you, mistaking, offer up to joy. My husband lives, that Tybalt would have slain; And Tybalt's dead, that would have slain my husband. All this is comfort; wherefore weep I then? Some word there was, worser than Tybalt's death, That murd're...\n\n---\n\n[3] Romeo and Juliet | Act 5 Scene 3 | romeo_and_juliet_5_3 | Speakers: FRIAR LAURENCE,PRINCE\nPlay: Romeo and Juliet | Act 5 Scene 3\nSummary: Romeo and Juliet die in the tomb, reconciling the families.\n\nPRINCE: Seal up the mouth of outrage for a while, Till we can clear these ambiguities And know their spring, their head, their true descent; And then will I be general of your woes And lead you even to death. Meantime forbear, And let mischance be slave to patience. Bring forth the parties of suspicion.\nFRIAR LAURENCE: I am the greatest, able to do least, Yet most suspected, as the time and place Doth make against me, of this direful murther; And here I stand, both to impeach and purge Myself condemned and myself excus'd.\nPRINCE: Then say at once what thou dost know in this.",
+        "retrieved_metadata": "Romeo and Juliet Act 0 Scene 0; Romeo and Juliet Act 3 Scene 2; Romeo and Juliet Act 5 Scene 3",
+        "response": "The Capulet-Montague feud is...\n\nA longstanding grudge that ultimately leads to the tragic deaths of Romeo and Juliet. The feud creates an atmosphere of hatred and violence, which fuels the characters' actions and decisions, ultimately resulting in their demise.",
+        "correctness": "",
+        "grounding": "",
+        "retrieval_relevance": "",
+        "usefulness": "",
+        "style": "",
+        "comments": ""
+      }
+    ]
+  }
+]
