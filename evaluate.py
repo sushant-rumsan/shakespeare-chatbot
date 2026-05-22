@@ -14,7 +14,8 @@ OUTPUT_CSV = "evaluate_results.csv"
 OUTPUT_JSON = "evaluate_results.json"
 DATA_DIR = Path("./data")
 
-FIELDNAMES = [
+# CSV omits full retrieved_passage (use evaluate_results.json for evidence text).
+CSV_FIELDNAMES = [
     "question_id",
     "source",
     "play",
@@ -22,7 +23,6 @@ FIELDNAMES = [
     "expected_focus",
     "interaction",
     "system",
-    "retrieved_passage",
     "retrieved_metadata",
     "response",
     "correctness",
@@ -32,6 +32,10 @@ FIELDNAMES = [
     "style",
     "comments",
 ]
+
+
+def row_for_csv(row):
+    return {k: row[k] for k in CSV_FIELDNAMES}
 
 
 def load_questions():
@@ -183,9 +187,9 @@ def main():
         all_rows.extend(evaluate_question(q, rag))
 
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
+        writer = csv.DictWriter(f, fieldnames=CSV_FIELDNAMES)
         writer.writeheader()
-        writer.writerows(all_rows)
+        writer.writerows(row_for_csv(row) for row in all_rows)
 
     grouped = group_results_by_question(all_rows)
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
